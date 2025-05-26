@@ -1,72 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎪 Exodia - IIT Mandi's Cultural Fest Website
 
-## Getting Started
+[![Live Website](https://img.shields.io/badge/Live%20Website-8A2BE2)](https://exodia-iitmandi.org/) 
+[![Tech Stack](https://img.shields.io/badge/Tech_Stack-Next.js%20|%20TypeScript%20|%20MongoDB%20|%20Framer_Motion%20|%20Shadcn-blue)]
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=exodia-website)
 
-First, run the development server:
+**The official website for IIT Mandi's annual cultural fest**, featuring a horror-themed interactive experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠 Tech Stack
+
+| Area          | Technologies Used |
+|---------------|-------------------|
+| **Frontend**  | Next.js 14, TypeScript, Tailwind CSS, Framer Motion, Shadcn |
+| **Backend**   | Next.js API Routes, MongoDB |
+| **Services**  | UploadThing (File Storage) |
+
+## 📂 Project Structure
+
+```
+exodia-website/
+├── app/               # Next.js app router
+│   ├── api/           # Backend handlers
+│   └── components/    # Reusable UI (FlipEventCard, HorrorTimer, etc.)
+│   ├── contact/
+│   ├── events/
+│   ├── join/
+│   ├── nidma/
+│   ├── schedule/
+│   ├── sponsors/
+│   ├── teams/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+├── lib/               # Database models, utilities and hooks
+├── node_modules/
+├── public/            # Static assets
+├── .env
+├── .gitignore
+├── components.json
+├── eslint.config.json
+├── next-env.d.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── postcss.config.js
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.js
+└── tsconfig.json         # Project previews
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-<!-- adding tech stack used heading and their links name  -->
-
-## Tech used we will be using - 
-
-- [Next.js 15](https://nextjs.org)
-- [react.js 19](https://react.dev/)
-- [Clerk](https://clerk.dev)
-- [Tailwind CSS](https://tailwindcss.com)
-- [Motion](https://motion.dev)
-- [materialui](https://mui.com/material-ui/)
-- [magicui](https://magicui.design/)
-- [aceternityui](https://ui.aceternity.com/)
-- [GSAP](https://gsap.com)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [three.js](https://threejs.org/)
-- [framer motion](https://motion.dev/) 😎
-
-## Rules to contribute
-
-1. Go to the code section (home page of repo).
-2. Click on "Branches", written just below the name "Exodia-IIT-Mandi".
-3. Create your personalized branch by clicking on the new Branch green button on the upper right side, write its name and enter.
-4. After creating the new branch, you can see it on the screen, click on it.
-5. You can verify that you opened your own branch by seeing your branch name just below "Exodia-IIT-Mandi", after you open your branch after step 4.
-
-Then follow the following steps:
-
-1. Go to the repo, download its zip folder by clicking on the green "code" button on the upper right side.
-2. Extract the zip folder, and open it using VS Code.
-3. Open a new terminal in VS Code and write the following commands one by one:
-    > **NOTE:** Here "temp" is my branch name, make sure you replace it with your branch name.
-    > **NOTE:** Also make sure not to make any changes, first you have to link your VS Code local branch with your GitHub branch.
-    ```bash
-    git init
-    git remote add origin https://github.com/Cultural-Council-IIT-Mandi/Exodia-IIT-Mandi.git
-    git fetch origin temp
-    git checkout -b temp origin/temp
-    git add .
-    git commit -m "Your commit message"
-    git push origin temp
-    ```
-4. At the end, you should see "Everything up-to-date" in the terminal.
-5. Then for just checking, make a little change to the `zPageUpdate` file.
-6. Then you have to push these changes by doing the following:
-    - On the left side in VS Code, you have Source Control.
-    - Click on it.
-    - Inside the message box, write a message for your commit.
-    - Then press commit.
-    - If something appears, press the OK button.
-7. Then check on your browser whether that change appears or not. If it appears, Balle Balle! Go and start developing. If not, contact Piyush 🫠 .
-8. Whenever you change code and push to your branch, you will see on the home page of your branch on the TOP - "CREATE PULL REQUEST".
-    - Click on it.
-    - Write the name and description and press create PR.
-    - Let us know to merge it. We will review the code and merge your PR.
+> **Note**: This project was developed for IIT Mandi's Cultural Council. For queries, contact [your-email@example.com](mailto:your-email@example.com).
