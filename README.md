@@ -51,4 +51,4 @@ exodia-website/
 
 ---
 
-> **Note**: This project was developed for IIT Mandi's Cultural Council. For queries, contact [your-email@example.com](mailto:your-email@example.com).
+> **Note**: This project was developed for IIT Mandi's Cultural Council.
