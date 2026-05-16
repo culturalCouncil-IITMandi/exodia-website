@@ -1,6 +1,6 @@
 "use client"
 
-import { AdminPasswordModal } from "@/app/components/admin-password-dialog";
+import { AdminPasswordModal } from "@/components/admin-password-dialog";
 import { useEffect, useState } from "react";
 
 interface ModalProviderProps {

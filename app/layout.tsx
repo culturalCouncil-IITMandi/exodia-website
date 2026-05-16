@@ -5,14 +5,14 @@ import "./globals.css";
 
 import "@uploadthing/react/styles.css";
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import HorrorTimer from "./components/HorrorTimer";
-import PreLoader from "./components/PreLoader";
-import CanonicalTag from "./components/CanonicalTag";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import HorrorTimer from "@/components/HorrorTimer";
+import PreLoader from "@/components/PreLoader";
+import CanonicalTag from "@/components/CanonicalTag";
 
 import { ToasterProvider } from "@/lib/providers/toast-provider";
-import FloatingBall from "./components/Anouncement_ball";
+import FloatingBall from "@/components/Anouncement_ball";
 
 const inter = Inter({
   subsets: ["latin"],

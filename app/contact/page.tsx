@@ -4,10 +4,10 @@ import React, { useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
 import { Plane, Train, Bus, MapPin, Navigation } from 'lucide-react';
-import { Modal, ModalBody, ModalContent, ModalFooter, ModalTrigger } from "../components/animated-modal";
-import { TabsDemo } from '../components/HowtoReach_DisplayTabs';
-import { CoolMode } from '../components/cool-mode';
-import FAQ from '../components/faq';
+import { Modal, ModalBody, ModalContent, ModalFooter, ModalTrigger } from "@/components/animated-modal";
+import { TabsDemo } from '@/components/HowtoReach_DisplayTabs';
+import { CoolMode } from '@/components/cool-mode';
+import FAQ from '@/components/faq';
 import { p } from 'framer-motion/client';
 
 

@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
-import ParallaxEventCard from '../components/ParallaxEventCard';
-import FlipEventCard from '../components/FlipEventCard';
+import ParallaxEventCard from '@/components/ParallaxEventCard';
+import FlipEventCard from '@/components/FlipEventCard';
 import { getCloudinaryImageUrl } from '@/lib/cloudinary';
 
 const mainEvents = [

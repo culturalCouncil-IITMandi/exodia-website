@@ -4,7 +4,7 @@ import React from 'react'
 
 import { motion } from "framer-motion";
 
-import SponCard from '../components/SponCard';
+import SponCard from '@/components/SponCard';
 
 const SponList = [
     {

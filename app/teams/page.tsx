@@ -2,7 +2,7 @@
 
 
 import React from 'react';
-import { FocusCards } from '../components/focus-cards';
+import { FocusCards } from '@/components/focus-cards';
 import { teamsList } from '@/lib/utils';
 
 
