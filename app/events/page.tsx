@@ -1,7 +1,10 @@
 'use client';
+
 import { motion } from 'framer-motion';
-import ParallaxEventCard from '../components/ParallaxEventCard';
-import FlipEventCard from '../components/FlipEventCard';
+
+import ParallaxEventCard from '@/components/ParallaxEventCard';
+import FlipEventCard from '@/components/FlipEventCard';
+
 import { getCloudinaryImageUrl } from '@/lib/cloudinary';
 
 const mainEvents = [
@@ -339,9 +342,9 @@ export default function EventsPage() {
       {/* Main Events Section */}
       <section className="relative py-16 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/blood-splatter.png')] opacity-10 mix-blend-multiply"></div>
-        
+
         <div className="container mx-auto px-4">
-          <motion.h1 
+          <motion.h1
             className="text-4xl sm:text-5xl font-bold text-center mb-16"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -364,19 +367,19 @@ export default function EventsPage() {
 
       <section className="py-16 bg-[#050505]">
         <div className="container mx-auto px-4">
-          <motion.h2 
+          <motion.h2
             className="text-3xl sm:text-4xl font-bold text-center mb-16"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-             <span className="text-[#BB0000]">Events</span>
+            <span className="text-[#BB0000]">Events</span>
           </motion.h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {events.map((event) => (
               <FlipEventCard
-                
+
                 key={event.id}
                 {...event}
               />

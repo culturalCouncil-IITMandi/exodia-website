@@ -7,10 +7,10 @@ import { useRef, useEffect, useState } from 'react';
 
 import { motion, useScroll, useTransform } from 'framer-motion';
 
-import Card from './components/Card';
-import About_VideoSection from './components/About_VideoSection';
-import HorrorLogo from './components/HorrorLogo';
-import TextRevealAnimation from './components/TextRevealAnimation';
+import Card from '@/components/Card';
+import About_VideoSection from '@/components/About_VideoSection';
+import HorrorLogo from '@/components/HorrorLogo';
+import TextRevealAnimation from '@/components/TextRevealAnimation';
 
 import { getCloudinaryImageUrl } from '@/lib/cloudinary';
 
